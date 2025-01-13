@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="ninja-ninja-arch"
+          fetch="https://github.com/ninja-ninja-arch"
+          revision="lineage-18.1" />
+ <!--Device tree-->
+ <project name="evice_oppo_RMX1805" path="device/oppo/RMX1805" remote="ninja-ninja-arch"/> 
+
+ <!-- Vendor -->
+ <project name="vendor_oppo" path="vendor/oppo" remote="ninja-ninja-arch"/> 
