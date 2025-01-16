@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="ninja" fetch="https://github.com/ninja-ninja-arch" />
+  
+  <!-- Device Trees -->
+  <project path="device/xiaomi/water" name="android_device_water_lineage" remote="ninja" revision="11" />
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/water" name="vendor_xaomi_water" remote="ninja" revision="11" />
+
+</manifest>
